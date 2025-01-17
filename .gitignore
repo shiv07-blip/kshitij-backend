@@ -1,0 +1,42 @@
+env
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables
+.env
+*.env
+
+# Flask extensions
+*.sqlite3
+*.db
+instance/
+*.log
+
+
+# Cache files
+*.cache
+.cache/
+*.pkl
+
+# IDE and editor-specific files
+*.swp
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Pytest
+.pytest_cache/
+
+# Static files
+staticfiles/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Flask migrations
+migrations/
